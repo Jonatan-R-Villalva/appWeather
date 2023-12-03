@@ -3,7 +3,7 @@ import { Box, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
 
 const API_WEATHER = `
-http://api.weatherapi.com/v1/current.json?key=
+https://api.weatherapi.com/v1/current.json?key=
 ${import.meta.env.VITE_API_KEY}&q=`;
 
 export default function App() {
